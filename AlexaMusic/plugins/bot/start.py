@@ -284,7 +284,7 @@ async def welcome(client, message: Message):
 @app.on_message(commandpro(["/alive", "Alexa"]) & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/125f531d44a9999290cac.jpg",
+        photo=f"https://telegra.ph/file/7ce2435b36868570434d6.jpg",
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ʜᴇʟʟᴏ, ᴅᴀʀʟᴢᴢᴢ ɪs ᴡᴏʀᴋɪɴɢ ᴀɴᴅ ғᴜɴᴄᴛɪᴏɴɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\n✪ ᴛʜᴀɴᴋs ᴛᴏ ʏᴜᴋᴋɪ ᴛᴇᴀᴍ 🌼 ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [ᴅᴀʀʟᴢᴢᴢ](https://t.me/kassim_darlzzz)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [ᴜᴘᴅᴀᴛᴇs ʜᴇʟᴘ](https://t.me/DarlzzzUpdate)┓\n┣★ ʀᴇᴘᴏ › : [ᴀssɪsᴛᴀɴᴛ](https://t.me/Darlzzz_assistant)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/kassim_darlzzz) ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ sᴛᴀʀ ᴏᴜʀ ᴘʀᴏᴊᴇᴄᴛ ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━
 """,
         reply_markup=InlineKeyboardMarkup(
