@@ -9,15 +9,15 @@ selections = [
     "▁▄▂▇▄▅▄▅▃",
     "▁▃▇▂▅▇▄▅▃",
     "▃▁▇▂▅▃▄▃▅",
-    "▃▄▂▄▇▅▃▅▁",
+    "▃▄▂𝐒-▄▇▅▃▅▁",
     "▁▃▄▂▇▃▄▅▃",
     "▃▁▄▂▅▃▇▃▅",
     "▁▇▄▂▅▄▅▃▄",
-    "▁▃▅▇▂▅▄▃▇",
+    "▁▃▅▇▂𝐓-▅▄▃▇",
     "▃▅▂▅▇▁▄▃▁",
     "▇▅▂▅▃▄▃▁▃",
     "▃▇▂▅▁▅▄▃▁",
-    "▅▄▇▂▅▂▄▇▁",
+    "▅▄▇▂▅▂▄▇▁𝐃",
     "▃▅▂▅▃▇▄▅▃",
 ]
 
@@ -40,7 +40,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text=" ᴏᴡɴᴇʀ 💞", url=f"https://t.me/kassim_darlzzz"
+                text=" ᴏᴡɴᴇʀ 💞", url=f"https://t.me/STD_DEEPANSHU"
             ),
         ],
         [
@@ -48,12 +48,12 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
-            InlineKeyboardButton(text="ᴅᴀʀʟᴢᴢᴢ ᴄʜᴀᴛ 💌", url=f"https://t.me/DarlzzzzSupport"),
+            InlineKeyboardButton(text="ꜱᴛᴅ ᴄʜᴀᴛ 💌", url=f"https://t.me/DevilsHaveliMF"),
         ],
         [
             InlineKeyboardButton(
-                text=f"☀ ᴀʟᴇxᴀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ☀",
-                url=f"https://t.me/Alexa_ManagementBot",
+                text=f"☀ ꜱᴛᴅ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ☀",
+                url=f"https://t.me/DeepanshuRobot",
             )
         ],
     ]
@@ -74,14 +74,14 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="ᴏᴡɴᴇʀ 💞", url=f"https://t.me/kassim_darlzzz"),
+            InlineKeyboardButton(text="ᴏᴡɴᴇʀ 💞", url=f"https://t.me/STD_DEEPANSHU"),
         ],
         [
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="ᴅᴀʀʟᴢᴢᴢ ᴄʜᴀᴛ 💌", url=f"https://t.me/DarlzzzzSupport"),
+            InlineKeyboardButton(text="ꜱᴛᴅ ᴄʜᴀᴛ 💌", url=f"https://t.me/DevilsHaveliMF"),
         ],
     ]
     return buttons
@@ -97,14 +97,14 @@ def stream_markup(_, videoid, chat_id):
                 text=_["PL_B_2"],
                 callback_data=f"add_playlist {videoid}",
             ),
-            InlineKeyboardButton(text="ᴏᴡɴᴇʀ 💞", url=f"https://t.me/kassim_darlzzz"),
+            InlineKeyboardButton(text="ᴏᴡɴᴇʀ 💞", url=f"https://t.me/STD_DEEPANSHU"),
         ],
         [
             InlineKeyboardButton(
                 text=_["PL_B_3"],
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
-            InlineKeyboardButton(text="ᴅᴀʀʟᴢᴢᴢ ᴄʜᴀᴛ 💌", url=f"https://t.me/DarlzzzzSupport"),
+            InlineKeyboardButton(text="ꜱᴛᴅ ᴄʜᴀᴛ 💌", url=f"https://t.me/DevilsHaveliMF"),
         ],
     ]
     return buttons
