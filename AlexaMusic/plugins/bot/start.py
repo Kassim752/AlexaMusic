@@ -95,7 +95,7 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/DarlzzzzSupport) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/DevilsHaveliMF) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                     else:
                         msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
@@ -281,13 +281,13 @@ async def welcome(client, message: Message):
             return
 
 
-@app.on_message(commandpro(["/alive", "Alexa"]) & ~filters.edited)
+@app.on_message(commandpro(["/alive", "std"]) & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/7ce2435b36868570434d6.jpg",
-        caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ʜᴇʟʟᴏ, ᴅᴀʀʟᴢᴢᴢ ɪs ᴡᴏʀᴋɪɴɢ ᴀɴᴅ ғᴜɴᴄᴛɪᴏɴɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\n✪ ᴛʜᴀɴᴋs ᴛᴏ ʏᴜᴋᴋɪ ᴛᴇᴀᴍ 🌼 ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [ᴅᴀʀʟᴢᴢᴢ](https://t.me/kassim_darlzzz)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [ᴜᴘᴅᴀᴛᴇs ʜᴇʟᴘ](https://t.me/DarlzzzUpdate)\n┣★ ᴀssɪsᴛᴀɴᴛ › : [ᴀssɪsᴛᴀɴᴛ](https://t.me/Darlzzz_assistant)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/kassim_darlzzz) ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ sᴛᴀʀ ᴏᴜʀ ᴘʀᴏᴊᴇᴄᴛ ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━
+        photo=f"https://te.legra.ph/file/4971fa8370924559a62d0.jpg",
+        caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ʜᴇʟʟᴏ, ꜱᴛᴅ ɪs ᴡᴏʀᴋɪɴɢ ᴀɴᴅ ғᴜɴᴄᴛɪᴏɴɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\n✪ ᴛʜᴀɴᴋs ᴛᴏ ʏᴜᴋᴋɪ ᴛᴇᴀᴍ 🌼 ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [ꜱᴛᴅ](https://t.me/STD-DEEPANSHU)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [ᴜᴘᴅᴀᴛᴇs ʜᴇʟᴘ](https://t.me/DevilsServer)\n┣★ ᴀssɪsᴛᴀɴᴛ › : [ᴀssɪsᴛᴀɴᴛ](https://t.me/Deepanshuassistant)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/STD_DEEPANSHU) ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ sᴛᴀʀ ᴏᴜʀ ᴘʀᴏᴊᴇᴄᴛ ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━
 """,
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🌼 ᴅᴀʀʟᴢᴢᴢ ᴄʜᴀᴛ 💮", url=f"https://t.me/DarlzzzzSupport")]]
+            [[InlineKeyboardButton("🌼 ꜱᴛᴅ ᴄʜᴀᴛ 💮", url=f"https://t.me/DevilsHaveliMF")]]
         ),
     )
