@@ -59,7 +59,7 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("Alexa_Help")
+                await self.one.join_chat("DevilsHaveliMF")
             except:
                 pass
             assistants.append(1)
@@ -85,7 +85,7 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("Alexa_Help")
+                await self.two.join_chat("DevilsHaveliMF")
             except:
                 pass
             assistants.append(2)
